@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int num_1, num_2, sum, res;
+
+int main(void){
+	printf("Input tow value:\n");
+	scanf("%d", &num_1);
+	scanf("%d", &num_2);
+	sum = (num_1 + mun_2);
+	res = (num_1 - num_2);
+	printf("LA suma es %d", sum);
+	printf("La resta es %d", res);
+}
