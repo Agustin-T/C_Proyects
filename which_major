@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int num_1, num_2, num_3, may;
+int num_1, num_2, num_3, may, men;
 
 int main(void){
 	printf("Detector de numero de mayor valor");
@@ -20,7 +20,9 @@ int main(void){
 		}else{
 			may = num_3;
 		}
+		men = 0;
 	}
 	
 	printf("El mayor es %d", may);
+	printf("El menor es %d", may);
 }
